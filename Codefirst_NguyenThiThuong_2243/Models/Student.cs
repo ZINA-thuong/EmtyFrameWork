@@ -10,7 +10,7 @@ namespace Codefirst_NguyenThiThuong_2243.Models
     {
         [Key]
         public int Id { get; set; }
-        [Requirded(ErroeMessage="Ten ko dc de trong")]
+        [Required(ErrorMessage="Ten ko dc de trong")]
         [StringLength(100)]
         public string FullName { get; set; }
         public int Age { set; get; }
