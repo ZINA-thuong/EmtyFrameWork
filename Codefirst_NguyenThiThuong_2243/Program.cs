@@ -9,8 +9,10 @@ using System.Threading.Tasks;
 
 namespace Codefirst_NguyenThiThuong_2243
 {
+    
     public class Program
     {
+        
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
